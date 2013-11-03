@@ -1,0 +1,37 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+<title>HUNGASTRYKE: RETRIEVAL SEARCH FUNCTIONALITY</title>
+<link href='script/retrieval.css' rel='stylesheet'/>
+<style type="text/css">
+	#search { 
+		width: 290px; 
+		height: 10px;
+		padding: 10px 5px;
+		border: solid 1px #09c;
+		border-radius: 4px; 
+		font: normal 1em arial, helvetica, times new roman; 
+	}
+</style>
+</head>
+<body>
+	<section><input type="text" id="search" /></section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="script/retrieval.min.js"></script>
+	<script type="text/javascript">	
+		$('#search').retrieval({
+			search: $('#search'),
+			posturl: 'script/test.json',
+			datatype: 'json',
+			type: 'get',
+			key: 'value',
+			image: true,
+			imagenode: 'image',
+			datanode: 'project'
+		});
+	</script>
+	<!-- google analytics -->
+	<script src="../../script/ga.js"></script>
+</body> 
+</html> 

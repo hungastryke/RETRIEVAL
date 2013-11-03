@@ -1,0 +1,35 @@
+/* ========================
+	    RETRIEVAL CSS (c) Kwansah Madani 2013
+	    ======================== */
+dl.search {
+    display: none;
+    position: absolute;
+    z-index: 10000000000;
+    background: #FFF;
+    border: solid 1px #999;
+    border-top: none;  
+}
+dl.search dd {
+    padding: 10px;
+    margin: 0px;
+    border-bottom: solid 1px #CCC;
+    font: normal 1em arial, helvetica, times new roman; 
+}
+dl.search dd img {
+    width: 45px; 
+    height: 35px;
+    margin-right: 10px;
+    border: 1px solid #999;
+    vertical-align: middle;
+}
+dl.search dd span { float: none; }
+dl.search dd:hover,
+dl.search dd.selected {
+    cursor: pointer;
+    background: #DDD;
+}
+dl.search dd.noEvent:hover {
+    cursor: default;
+    background: #FFF;
+}
+dl.search dd:last-child { border: none; }
