@@ -1,6 +1,4 @@
-RETRIEVAL
-=================
-A responsive design jquery search plugin
+####**RETRIEVAL - A responsive design jquery search plugin**
 
 **A. Description**<br />
 This plugin allows you to do search for data immediately as you type into your search field. 
