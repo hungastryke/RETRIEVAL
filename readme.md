@@ -6,7 +6,7 @@ A responsive design jquery search plugin
 This plugin allows you to do search for data immediately as you type into your search field. 
 
 **B. Requirements**<br />
-You'll need to download both the retrieval.css and the retrieval.min.js from this repository. I recommend placing your retrieval.css file at the base of the head tag. For optimal performance, you should place the retrieval.min.js file at the base of your document right before the closing body tag.
+You'll need to download both the [retrieval.css](retrieval.css) and the [retrieval.min.js](retrieval.min.js) from this repository. I recommend placing your [retrieval.css](retrieval.css) file at the base of the head tag. For optimal performance, you should place the [retrieval.min.js](retrieval.min.js) file at the base of your document right before the closing body tag.
 
 **C. How to use**<br />
 Retrieval uses the jquery library and as such, uses very similar syntax. If you've used jquery before you should be accustomed to using this tool.
