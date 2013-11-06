@@ -1,4 +1,5 @@
 ####**RETRIEVAL - A responsive design jquery search plugin**
+[View Demo](http://hungastryke.com/samples/retrieval)<br />
 
 **A. Description**<br />
 This plugin allows you to do search for data immediately as you type into your search field. 
@@ -9,8 +10,7 @@ You'll need to download both the [retrieval.css](retrieval.css) and the [retriev
 **C. How to use**<br />
 Retrieval uses the jquery library and as such, uses very similar syntax. If you've used jquery before you should be accustomed to using this tool.
 
-There are two types of dropdowns: one with images and one without. 
-
+There are two types of dropdowns: one with images and one without. You can view the [demo here](http://hungastryke.com/samples/retrieval).
 
 Here's how it works:<br />
 
